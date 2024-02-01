@@ -1,0 +1,31 @@
+.main-register{
+
+    margin: 30px auto;
+    border: 1px solid pink;
+    width: 700px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main-form{
+    text-align: center;
+}
+.btn-register{
+    background-color: brown;
+    border-radius: 5px;
+    padding:0 10px;
+    color: aliceblue;
+    border: none;
+}
+.fa-eye-layout{
+    position: relative;
+}
+.toggle_eye{
+    position: absolute;
+    top: 11px;
+    right: 12px;
+}
+.ruler{
+    margin: 20px 0;
+    font-size: 14px;
+    color: blue;
+}

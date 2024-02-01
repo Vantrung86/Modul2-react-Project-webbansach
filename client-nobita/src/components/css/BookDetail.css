@@ -1,0 +1,122 @@
+.container-infor{
+    padding:15px 50px;
+}
+.row .col-3 img{
+    width: 90%;
+    height: 300px;
+}
+.btn-infor{
+   background-color: brown; 
+   border-radius: 5px;
+   border: none;
+   padding: 3px 8px;
+   color: aliceblue;
+   margin-bottom: 20px;
+}
+.price span{
+    color: blue;
+}
+.col-9{
+line-height: 20px;
+padding-left: 60px !important;
+font-size: 14px;
+}
+.col-9 h5{
+    color: blue;
+}
+.fa-check{
+    color: #00cc66;
+}
+
+/* Có thể bạn quan tâm */
+
+.care_about{
+    margin-top: 30px;
+    color: rgb(120, 118, 118);
+}
+
+
+.bonnus_detail{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bonnus_detail .newbook_decoration{
+    width: 20%;
+    padding: 25px;
+}
+.bonnus_detail .newbook_decoration a{
+    text-decoration: none;
+}
+.bonnus_detail .newbook_decoration img{
+    width: 100%;
+    height: 250px;
+}
+
+/* conmnent */
+.commnent{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(134, 131, 131);
+    width: 40%;
+    margin: auto;
+}
+.commnent .comment_length{
+    border: 1px dotted rgb(153, 153, 153);
+    padding: 14px 20px;
+    border-radius: 50px;
+}
+.duongvien{
+    border-bottom: 1px dotted rgb(153, 153, 153) ;
+    padding: 12px 0;
+}
+.commnent .danhgia{
+    margin-top: 20px;
+}
+
+
+
+
+.btn-comment-product{
+    background-color: green !important;
+    color: aliceblue !important;
+}
+.form-control::placeholder{
+    font-style: italic;
+    font-size: 13px;
+}
+.commentli{
+    display: flex;
+    margin-bottom: 20px;
+}
+.comment_img{
+   width: 7%;
+   margin-right: 15px;
+}
+.content_comment{
+    font-size: 15px;
+}
+.comment_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.customer_meta{
+    margin: 15px -4px 8px 0;
+}
+.customer_meta .review_author{
+    margin-right: 10px;
+    color: blue;
+    font-weight: 600;
+}
+.customer_meta .comment-date{
+    font-style: italic;
+    font-size: 13px;
+}
+
+.handlelike{
+    display: flex;
+    gap: 16px;
+}
+.handlelike .feedback{
+  padding-left: 15px;
+  font-size: 13px;
+}

@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .icon {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+  }
+
+  .icon,
+  .icon_header {
+    margin-right: 5px;
+  }
+  
+  .close_icon {
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      "sidebar header header header"
+      "sidebar main main main";
+    height: 100vh;
+  }
+  
+  /* main  */
+    .main-container{
+      text-align: center;
+      margin: 30px;
+    }
+    .section_user_search{
+      position: relative;
+    }
+    .icon_search_user{
+      position: absolute;
+      top: 25px;
+      right: 375px;
+    }
+    .btn_add_Product{
+      text-align: right;
+      
+    }
+    .btn_add_Product button{
+      border: none;
+      background-color: green;
+      border-radius: 4px;
+      padding: 3px 5px;
+      color: white;
+    }
+    .main-title h3{
+      font-weight: bold;
+    }
+    
+    .select_sort_product{
+      text-align: right;
+      margin-bottom: 10px;
+      font-size: 13px;
+    }
+    .main-container input{
+      margin: 20px 0;
+    }
+    .table_product{
+      border-collapse: collapse;
+      /* Hợp nhất border giữa các ô */
+      width: 100%;
+    }
+    .table_product tbody{
+      font-size: 13px;
+    }
+    .table_product th,
+    .table_product td {
+      border: 1px solid black;
+      /* Kích thước và màu border */
+       padding: 8px;
+      /* Khoảng cách giữa nội dung và border */
+      text-align: center;
+    }
+
+    .img_product_admin img{
+      width: 90px;
+      height: 100px;
+    }
+
+    .btn_edit_product{
+      margin-right: 5px;
+      padding: 3px 5px;
+      background-color: yellow;
+      border: none;
+      border-radius: 4px;
+
+    }
+    .btn_delete_product{
+      margin-left: 5px;
+      padding: 3px 5px;
+      background-color: red;
+      border: none;
+      border-radius: 4px;
+    }
+    .status_user{
+      font-size: 17px;
+    }
+
+    /* add product */
+    .modal-content{
+      text-align: center !important;
+
+    }
+    .modal_add_product{
+      margin: 20px auto;
+    }
+    .modal_title_product{
+      font-weight: 700 !important;
+    }
+    .forn_add_product .form label{
+      margin-bottom: 10px;
+    }
+    .form_label{
+      width: 20%;
+      font-size: 13px;
+    }
+    .btn_modal_add_product{
+      margin-bottom: 15px;
+      background-color: brown !important;
+    }
+    .btn-close{
+      position: absolute;
+      top: 7px;
+      right: 7px;
+    }
+  /* End main  */
+ 
+  /* Sidebar  */
+  #sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: rgb(38,48,67);
+    overflow-y: auto;
+    transition: all 0.5s;
+    
+  }
+  
+  .sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-title > span {
+    display: none;
+  }
+  
+  .sidebar-brand {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .sidebar-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+  }
+  /* .active{
+    background-color: rgba(255, 255, 255, 0.2);
+  } */
+  .sidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    color: #9e9ea4;
+    padding: 15px 10px;
+  }
+  
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    /*
+        we want the z-index of the sidebar higher so that
+        the charts are not showing over the sidebar 
+        on small screens
+      */
+    z-index: 12 !important;
+  }
+  
+  /* End Sidebar  */
+  
+
+
+  
+    /* main */
+    .main-container{
+        width: 75%;
+        margin-left: 245px;
+    }
+  
+  /* Medium <= 992px */
+  
+  @media screen and (max-width: 992px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 3fr;
+      grid-template-areas:
+        "header"
+        "main";
+    }
+  
+    #sidebar {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: inline;
+    }
+  
+    .sidebar-title > span {
+      display: inline;
+    }
+  }
+  /* Small <= 768px */
+  
+  @media screen and (max-width: 768px) {
+    .main-cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 0;
+    }
+  
+    .charts {
+      grid-template-columns: 1fr;
+      margin-top: 30px;
+    }
+  }
+  
+  /* Extra Small <= 576px */
+  
+  @media screen and (max-width: 576px) {
+    .hedaer-left {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,70 @@
+.newbook_title{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    
+}
+
+.rectangle_detail {
+    top: 0;
+    right: -14px;
+    width: 0px;
+    height: 0px;
+    border-bottom:17px solid transparent;
+    border-top:19px solid transparent;
+    border-left:15px solid #0c6; /* Đổi 12px thành kích thước bạn muốn cho tam giác */
+    position: absolute;
+  }
+  
+  .event_endow_detail {
+    position:relative;
+    background-color: #0c6;
+    color: #fdfcf0;
+    font-size: 13px;
+    margin: 0px;
+  }
+  .event_endow_detail h4{
+    margin:6px 6px 0px 6px;
+    font-size: 18px;
+  }
+  .newbook_all{
+    display: flex;
+    align-items:center;
+    font-size: 13px;
+    color: rgb(99, 97, 97);
+    margin-right: 10px;
+  }
+
+  .newbook-section{
+    display: flex;
+    justify-content:space-between;
+  }
+  .newbook-section .newbook_decoration{
+    width: 20%;
+    padding: 0px 40px;
+    margin: 20px 0;
+  }
+  .newbook-section .newbook_decoration img{
+    width: 100%;
+    height: 180px;
+  }
+
+ .category-name{
+  font-weight: bold;
+  display: block;
+  display: -webkit-box;
+  height: 16px*1.3*3;
+  line-height: 1.3;
+  -webkit-line-clamp: 2;  /* số dòng hiển thị */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top:15px;
+
+  color: black;
+  font-size: 13px;
+ }
+
+ .newbook_price{
+  font-size: 13px;
+ }

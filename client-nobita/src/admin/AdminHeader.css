@@ -1,0 +1,17 @@
+.header_navbar_item ul{
+    display: flex;
+    list-style: none;
+    gap: 13px;
+    color:white
+}
+.title_admin{
+    color:white;
+}
+.header_admin{
+    background-color: black;
+}
+
+.home_admin{
+    font-size: 35px;
+    color: aliceblue;
+}

@@ -1,0 +1,49 @@
+.product-table{
+    color: rgb(116, 20, 83);
+    text-align: center;
+    margin: 0 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+.product-table h4{
+    font-weight: 500;
+}
+.table{
+    border: 1px solid pink;
+
+
+}
+.table img{
+    height: 70px;
+    width: 90px;
+}
+.fa-plus{
+    font-size: 10px;
+    padding-left: 7px;
+}
+.fa-minus{
+    font-size: 10px;
+    padding-right: 7px;
+}
+.fa-trash-can{
+    color: red;
+}
+.total_money{
+    text-align: right;
+    padding: 20px 50px;
+}
+.total_money h5{
+    color: black;
+}
+.total_money h5 span{
+    color: blue;
+    font-weight: 600;
+    
+}
+.total_money button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 8px;
+}

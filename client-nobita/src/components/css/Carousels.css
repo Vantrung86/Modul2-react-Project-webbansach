@@ -1,0 +1,46 @@
+.carousel_category{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 5px 0;
+}
+.category_list{
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.phone{
+    font-size: 13px;
+    font-weight: bold;
+    color: #0c6;
+}
+.phone .hotline{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+.carosel_content{
+    display: flex;
+    background-color: #f2f2f2;
+    margin: 20px 0;
+}
+.carosel_left{
+    background-color: white;
+    width: 25%;
+}
+.carosel_left ul li{
+    list-style: none;
+   margin: 12px 0;
+   font-size: 14px;
+   color: rgb(74, 73, 73);
+}
+.carosel_left_outstanding{
+    font-weight: bold;
+}
+.carosel_right{
+    width: 75%;
+}
+.img_carousel{
+    width: 100%;
+    height: 380px;
+}
